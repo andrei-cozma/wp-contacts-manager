@@ -1,7 +1,7 @@
 import Login from './components/auth/Login';
 import ContactContainer from './components/contacts/Container';
 import ContactIndex from './components/contacts/Index';
-import CustomersCreate from './components/contacts/Create';
+import ContactCreate from './components/contacts/Create';
 import ContactShow from './components/contacts/Show';
 
 export const routes = [
@@ -26,7 +26,7 @@ export const routes = [
             },
             {
                 path: 'create',
-                component: CustomersCreate
+                component: ContactCreate
             },
             {
                 path: ':id',
